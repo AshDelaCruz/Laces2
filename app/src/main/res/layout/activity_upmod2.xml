@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#8E8E93"
+            android:orientation="vertical"
+            tools:context="ash.laces.UploadActivity">
+
+            <TextureView
+                android:id="@+id/texture"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_alignParentStart="true" />
+
+            <ImageButton
+                android:id="@+id/btn_takepicture"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:background="@mipmap/camera_icon" />
+
+            <Button
+                android:id="@+id/getHatButton"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/snaphat"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

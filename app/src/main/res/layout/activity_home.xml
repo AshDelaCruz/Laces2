@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/LacesGrayBackground"
+    tools:context="ash.laces.HomeActivity">
+
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@mipmap/app_icon6"
+       android:layout_centerHorizontal="true"
+       android:id="@+id/logo"
+       android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_below="@id/logo"
+        android:text="Welcome to Laces!"
+        android:textAlignment="center"
+        android:textSize="12pt"
+        android:id="@+id/home_greeting"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_below="@id/home_greeting"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="10pt"/>
+
+
+
+</RelativeLayout>

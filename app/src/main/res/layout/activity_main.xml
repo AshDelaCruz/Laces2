@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LacesGrayBackground"
+    android:paddingTop="16dp"
+    tools:context="ash.laces.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Laces"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/greeting" />
+
+    <!--<com.facebook.login.widget.LoginButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fb_login_bn"
+        android:layout_below="@+id/greeting"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="166dp"></com.facebook.login.widget.LoginButton>-->
+
+
+
+</RelativeLayout>
